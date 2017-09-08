@@ -4,15 +4,17 @@ import {
   StyleSheet,
   Text,
   View,
+  Share,
+  TouchableHighlight
 } from 'react-native';
 
-import CameraRollComponent from "./app/components/CameraRollComponent/CameraRollComponent"
+import ShareComponent from "./app/components/ShareComponent/ShareComponent"
 
 export default class reactnativeapi extends Component {
   render() {
     return (
       <View>
-        <CameraRollComponent />
+        <ShareComponent />
       </View>
     );
   }
